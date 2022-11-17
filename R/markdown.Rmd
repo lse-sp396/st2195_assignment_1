@@ -1,0 +1,15 @@
+---
+title: 'Assignment1: R'
+author: "Sojung Park"
+date: "17 November 2022"
+---
+
+# Task
+Print from 1 to 10 with **R**
+
+```{r}
+n <- 10 # assign 10 to n
+for (val in seq_len(n)) { # loop from 1 to 10
+  print(val) #print value
+}
+```
